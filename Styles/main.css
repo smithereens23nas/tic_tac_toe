@@ -1,0 +1,42 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(3,1fr);
+    border: 5px solid black;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.reset-btn {
+    border: black solid 3px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 25px;
+}
+
+.popupMessage{
+    color: rgb(64, 222, 20);
+    /* outline: blue solid 3px; */
+    z-index: 1000;
+    position:absolute;
+    top: 30%;
+    left: 17%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+
+}
+.test div {
+    outline: red solid 4px;
+}
